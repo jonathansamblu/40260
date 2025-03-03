@@ -4,3 +4,6 @@
 [submodule "poema"]
 	path = poema
 	url = https://github.com/jonathansamblu/poema.git
+[submodule "proyecto"]
+	path = proyecto
+	url = https://github.com/jonathansamblu/proyecto.git

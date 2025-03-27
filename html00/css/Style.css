@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://previews.123rf.com/images/cienpies/cienpies1207/cienpies120700054/14311060-juegos-olímpicos-de-cintas-y-los-puntos-de-fondo-abstracto.jpg");
+    background-repeat: no-repeat;
+    background-size: 800px 900px;
+}

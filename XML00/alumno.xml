@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+  <alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <nombre>Jose</nombre>
+    <nacimiento>2050-05-90</nacimiento>
+  </alumno>
+
+   <alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <nombre>Miguel</nombre>
+    <nacimiento>2012-02-01</nacimiento>
+  </alumno>
+
+   <alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <nombre>JoseAngel</nombre>
+    <nacimiento>2025-02-01</nacimiento>
+  </alumno>
+</alumnos>

@@ -20,10 +20,10 @@
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function() {
             const xmlDoc = xhttp.responseXML;
-            const cd = xmlDoc.getElementsByTagName("CD");
+            const cd = xmlDoc.getElementsByTagName("alumno");
             myFunction(cd)
         }
-        xhttp.open("GET", "../XML00/cd_catalog.xml");
+        xhttp.open("GET", "../XML00/alumno.xml");
         xhttp.send();
         }
 
@@ -31,9 +31,9 @@
         let table="<tr><th>Artist</th><th>Title</th></tr>";
         for (let i = 0; i < cd.length; i++) { 
             table += "<tr><td>" +
-            cd[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+            cd[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue +
             "</td><td>" +
-            cd[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+            cd[i].getElementsByTagName("nacimiento")[0].childNodes[0].nodeValue +
             "</td></tr>";
         }
         document.getElementById("demo").innerHTML = table;

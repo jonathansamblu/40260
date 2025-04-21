@@ -16,7 +16,7 @@
     <script>
         const loadXMLDoc = async () => {
             try {
-                const response = await fetch('../xml00/alumno.xml');
+                const response = await fetch('../XML00/alumno.xml');
                 const text = await response.text();
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(text, "application/xml");

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<alumnos>
-  <alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumno.xsd">
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumno.xsd">
+  <alumno correo="jose@gmail.com">
     <nombre>Jose</nombre>
-    <nacimiento>2050-05-90</nacimiento>
+    <nacimiento>2050-05-30</nacimiento>
   </alumno>
 
    <alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumno.xsd">

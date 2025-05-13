@@ -1,9 +1,26 @@
-console.log("formulario cargado");
-const boton = document.getElementById("enviar");
-boton.addEventListener("click", function() {
-    console.log("formulario enviado");
-    let user = document.getElementById("nombre");
-    let password = document.getElementById("password");
-    console.log(user.value);
-    console.log(password.value);
-});
+console.log("inicio")
+
+/* const boton = document.getElementById("enviar")
+boton.addEventListener("click", 
+    () => {
+        console.log("los parametros")
+        let user=document.getElementById("user")
+        let password=document.getElementById("password")
+        console.log(password.value)
+        console.log(user.value) */
+        
+
+
+
+
+    const mostrar =  () => {
+        console.log("los parametros")
+        let user=document.getElementById("user")
+        let password=document.getElementById("password")
+        console.log(password.value)
+        console.log(user.value)
+
+    }
+
+    const buton = document.getElementById("enviar")
+    buton.addEventListener("click", mostrar)

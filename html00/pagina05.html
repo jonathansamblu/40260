@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        img{
+        img {
             box-shadow: 10px 10px 20px red;
         }
         figure {
@@ -16,31 +16,10 @@
         }
     </style>
 </head>
-
 <body>
     <h1>Random picture</h1>
-    <!-- <figure>
-    <img src="https://picsum.photos/id/1/200/200" alt="x">
-    <figcaption>John</figcaption>
-    </figure> -->
-
     <div id="demmo"></div>
 
-    <script>
-        let ejemplo = document.getElementById("demmo");
-        console.log(ejemplo);
-        
-        function imagen(id){
-            const componente= "<figure>"+
-            '<img src="https://picsum.photos/id/1' + id + '/200/200" "alt="x">'+
-            "<figcaption>John</figcaption>"+
-            "</figure> "
-        return componente;
-        }
-
-        var picture;
-
-        ejemplo.innerHTML = "hola"+imagen(1);
-    </script>
+    <script src="pagina05.js"></script>
 </body>
 </html>

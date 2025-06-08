@@ -7,3 +7,6 @@
 [submodule "proyecto"]
 	path = proyecto
 	url = https://github.com/jonathansamblu/proyecto.git
+[submodule "ordinario-ftw"]
+	path = ordinario-ftw
+	url = https://github.com/jonathansamblu/ordinario-ftw.git
